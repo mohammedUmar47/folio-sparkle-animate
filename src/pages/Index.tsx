@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import LoadingScreen from '@/components/LoadingScreen';
-import CustomCursor from '@/components/CustomCursor';
 import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/sections/HeroSection';
 import AboutSection from '@/components/sections/AboutSection';
@@ -38,7 +37,6 @@ const Index = () => {
 
   return (
     <div className={`min-h-screen bg-background px-[5%] transition-opacity duration-500 ${showContent ? 'opacity-100' : 'opacity-0'}`}>
-      <CustomCursor />
       <Navigation />
       
       <main>

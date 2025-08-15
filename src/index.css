@@ -99,33 +99,6 @@ All colors MUST be HSL.
     --shadow-soft: 220 10% 5% / 0.3;
   }
 
-  /* Smooth Cursor */
-  * {
-    cursor: none;
-  }
-
-  .custom-cursor {
-    position: fixed;
-    width: 20px;
-    height: 20px;
-    background: hsl(var(--primary));
-    border-radius: 50%;
-    pointer-events: none;
-    z-index: 9999;
-    transition: var(--transition-smooth);
-    mix-blend-mode: difference;
-  }
-
-  .custom-cursor-follower {
-    position: fixed;
-    width: 8px;
-    height: 8px;
-    background: hsl(var(--accent));
-    border-radius: 50%;
-    pointer-events: none;
-    z-index: 9998;
-    transition: all 0.1s ease;
-  }
 
   /* Smooth Scrolling */
   html {
