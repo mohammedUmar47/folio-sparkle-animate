@@ -19,9 +19,9 @@ All colors MUST be HSL.
     --popover-foreground: 215 25% 15%;
 
     /* Primary - Professional Blue */
-    --primary: 220 90% 56%;
+    --primary: 220 85% 45%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 220 90% 70%;
+    --primary-glow: 220 90% 60%;
 
     /* Secondary - Light Blue */
     --secondary: 210 100% 97%;
@@ -68,9 +68,9 @@ All colors MUST be HSL.
     --popover-foreground: 210 40% 95%;
 
     /* Primary - Bright Blue */
-    --primary: 215 100% 70%;
+    --primary: 215 95% 60%;
     --primary-foreground: 220 30% 8%;
-    --primary-glow: 215 100% 85%;
+    --primary-glow: 215 100% 75%;
 
     /* Secondary - Dark Blue */
     --secondary: 220 25% 15%;

@@ -11,8 +11,8 @@ const CustomCursor = () => {
 
     const updateFollower = () => {
       setFollowerPosition((prev) => ({
-        x: prev.x + (position.x - prev.x) * 0.3,
-        y: prev.y + (position.y - prev.y) * 0.3,
+        x: prev.x + (position.x - prev.x) * 0.7,
+        y: prev.y + (position.y - prev.y) * 0.7,
       }));
     };
 
