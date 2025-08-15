@@ -92,7 +92,7 @@ const AllProjects = () => {
   });
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background px-[5%]">
       <Navigation />
       
       {/* Hero Section */}

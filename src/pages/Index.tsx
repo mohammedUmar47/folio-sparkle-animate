@@ -37,7 +37,7 @@ const Index = () => {
   }
 
   return (
-    <div className={`min-h-screen bg-background transition-opacity duration-500 ${showContent ? 'opacity-100' : 'opacity-0'}`}>
+    <div className={`min-h-screen bg-background px-[5%] transition-opacity duration-500 ${showContent ? 'opacity-100' : 'opacity-0'}`}>
       <CustomCursor />
       <Navigation />
       
